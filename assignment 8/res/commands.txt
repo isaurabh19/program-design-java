@@ -1,0 +1,20 @@
+1. To create a Portfolio use:
+create_portfolio portfolioName(no spaces)
+e.g. create_portfolio techPortfolio
+
+2. To add stock to a Portfolio:
+add_stock portfolioName tickerSymbol  amount date(yyyy-mm-dd,hh:mm)
+e.g. add_stock techPortfolio MSFT 2000 2018-11-13,10:00
+
+3. To examine the Portfolio:
+examine_portfolio -all (to view all IPortfolio names)
+examine_portfolio portfolioName (to view a particular IPortfolio).
+e.g examine_portfolio techPortfolio
+
+4. To get cost basis:
+cost_basis portfolioName
+e.g cost_basis techPortfolio
+
+5. To get current value:
+current_value portfolioName date(yyyy-mm-dd,hh:mm)
+e.g current_value techPortfolio 2018-11-14,10:30

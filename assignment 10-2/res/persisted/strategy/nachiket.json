@@ -1,0 +1,1 @@
+{"tickerAndWeight":{"V":50.0,"JNJ":50.0},"amount":2000.0,"startDate":{"date":{"year":2013,"month":1,"day":1},"time":{"hour":16,"minute":0,"second":0,"nano":0}},"endDate":{"date":{"year":2018,"month":12,"day":7},"time":{"hour":11,"minute":26,"second":27,"nano":238000000}},"unending":true,"intervalInDays":30,"commissionFee":2.0,"strategyName":"nachiket","TYPE":"DollarCost"}

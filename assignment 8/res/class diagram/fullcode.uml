@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>stock</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1315.0">stock.controller.StockController</node>
+    <node x="396.0" y="1213.0">stock.controller.commands.AbstractGetDateHelper</node>
+    <node x="256.0" y="0.0">stock.model.dao.DAOInterface</node>
+    <node x="312.5" y="124.0">stock.model.dao.DAOAbstract</node>
+    <node x="0.0" y="692.0">stock.model.PortfolioImpl</node>
+    <node x="995.0" y="0.0">stock.model.IPortfolioManagerModel</node>
+    <node x="331.0" y="523.0">stock.model.IStock</node>
+    <node x="0.0" y="315.0">stock.model.dao.DAOWebAPI</node>
+    <node x="718.0" y="1213.0">stock.controller.Launch</node>
+    <node x="324.0" y="670.0">stock.model.StockImpl</node>
+    <node x="0.0" y="1048.0">stock.controller.commands.CurrentValue</node>
+    <node x="576.0" y="1048.0">stock.controller.commands.CostBasis</node>
+    <node x="109.5" y="1213.0">stock.controller.IStockController</node>
+    <node x="0.0" y="523.0">stock.model.IPortfolio</node>
+    <node x="864.0" y="1026.0">stock.controller.commands.AddToPortfolio</node>
+    <node x="576.0" y="924.0">stock.controller.commands.TradeCommand</node>
+    <node x="995.0" y="190.0">stock.model.PortfolioManagerModel</node>
+    <node x="288.0" y="1048.0">stock.controller.commands.CreatePortfolio</node>
+    <node x="657.0" y="669.0">stock.view.StockView</node>
+    <node x="485.0" y="348.5">stock.model.dao.DAOcsv</node>
+    <node x="1152.0" y="1048.0">stock.controller.commands.ExaminePortfolio</node>
+    <node x="704.0" y="523.0">stock.view.IStockView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="stock.controller.commands.CurrentValue" target="stock.controller.commands.TradeCommand">
+      <point x="0.0" y="-49.0" />
+      <point x="134.0" y="996.0" />
+      <point x="602.8" y="996.0" />
+      <point x="-107.20000000000005" y="26.0" />
+    </edge>
+    <edge source="stock.controller.commands.CostBasis" target="stock.controller.commands.TradeCommand">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="stock.model.dao.DAOWebAPI" target="stock.model.dao.DAOAbstract">
+      <point x="0.0" y="-81.5" />
+      <point x="232.5" y="290.0" />
+      <point x="393.75" y="290.0" />
+      <point x="-81.25" y="70.5" />
+    </edge>
+    <edge source="stock.controller.StockController" target="stock.controller.IStockController">
+      <point x="0.0" y="-71.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="stock.controller.commands.CreatePortfolio" target="stock.controller.commands.TradeCommand">
+      <point x="0.0" y="-49.0" />
+      <point x="422.0" y="1006.0" />
+      <point x="656.4" y="1006.0" />
+      <point x="-53.60000000000002" y="26.0" />
+    </edge>
+    <edge source="stock.model.dao.DAOAbstract" target="stock.model.dao.DAOInterface">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="stock.controller.commands.ExaminePortfolio" target="stock.controller.commands.TradeCommand">
+      <point x="0.0" y="-49.0" />
+      <point x="1286.0" y="996.0" />
+      <point x="817.2" y="996.0" />
+      <point x="107.20000000000005" y="26.0" />
+    </edge>
+    <edge source="stock.model.PortfolioImpl" target="stock.model.IPortfolio">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="stock.controller.commands.AddToPortfolio" target="stock.controller.commands.TradeCommand">
+      <point x="0.0" y="-71.0" />
+      <point x="998.0" y="1006.0" />
+      <point x="763.6" y="1006.0" />
+      <point x="53.60000000000002" y="26.0" />
+    </edge>
+    <edge source="stock.model.StockImpl" target="stock.model.IStock">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="stock.model.dao.DAOcsv" target="stock.model.dao.DAOAbstract">
+      <point x="0.0" y="-48.0" />
+      <point x="717.5" y="290.0" />
+      <point x="556.25" y="290.0" />
+      <point x="81.25" y="70.5" />
+    </edge>
+    <edge source="stock.view.StockView" target="stock.view.IStockView">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="stock.model.PortfolioManagerModel" target="stock.model.IPortfolioManagerModel">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="553.125" y="298.125" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

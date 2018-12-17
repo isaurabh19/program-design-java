@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>stock.model</OriginalElement>
+  <nodes>
+    <node x="419.0" y="523.0">stock.model.IPortfolio</node>
+    <node x="256.0" y="0.0">stock.model.dao.DAOInterface</node>
+    <node x="312.5" y="124.0">stock.model.dao.DAOAbstract</node>
+    <node x="0.0" y="713.0">stock.model.PortfolioManagerModel</node>
+    <node x="419.0" y="692.0">stock.model.PortfolioImpl</node>
+    <node x="0.0" y="523.0">stock.model.IPortfolioManagerModel</node>
+    <node x="750.0" y="523.0">stock.model.IStock</node>
+    <node x="0.0" y="315.0">stock.model.dao.DAOWebAPI</node>
+    <node x="485.0" y="348.5">stock.model.dao.DAOcsv</node>
+    <node x="743.0" y="670.0">stock.model.StockImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="stock.model.dao.DAOWebAPI" target="stock.model.dao.DAOAbstract">
+      <point x="0.0" y="-81.5" />
+      <point x="232.5" y="290.0" />
+      <point x="393.75" y="290.0" />
+      <point x="-81.25" y="70.5" />
+    </edge>
+    <edge source="stock.model.PortfolioImpl" target="stock.model.IPortfolio">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="stock.model.StockImpl" target="stock.model.IStock">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="stock.model.dao.DAOcsv" target="stock.model.dao.DAOAbstract">
+      <point x="0.0" y="-48.0" />
+      <point x="717.5" y="290.0" />
+      <point x="556.25" y="290.0" />
+      <point x="81.25" y="70.5" />
+    </edge>
+    <edge source="stock.model.PortfolioManagerModel" target="stock.model.IPortfolioManagerModel">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="stock.model.dao.DAOAbstract" target="stock.model.dao.DAOInterface">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6214896214896215" x="349.0" y="553.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

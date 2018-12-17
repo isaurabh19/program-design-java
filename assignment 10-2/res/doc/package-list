@@ -1,0 +1,7 @@
+
+stock
+stock.controller
+stock.controller.commands
+stock.model
+stock.model.dao
+stock.view
