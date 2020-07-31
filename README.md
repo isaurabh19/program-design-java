@@ -7,3 +7,6 @@ The course reviews typical object-oriented concepts such as information hiding, 
 An important aspect of this course is to write clean, well-structured, well-documented code. Students will be expected to design and program to facilitate reuse, minimize code duplication and make it “future-proof”. Students will also be expected to explain and defend their design and programming decisions to code panels. In this sense this course trains students to see programming as a “people’s discipline”.
 
 Course website: https://course.ccs.neu.edu/cs5010/index.html
+
+
+Kindly send me a request to access the code
