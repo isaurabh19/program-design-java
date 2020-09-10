@@ -9,4 +9,4 @@ An important aspect of this course is to write clean, well-structured, well-docu
 Course website: https://course.ccs.neu.edu/cs5010/index.html
 
 
-Kindly send me a request to access the code
+Due to course policy I cannot make this repo public. Kindly send me a request to access the code
